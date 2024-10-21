@@ -1,3 +1,5 @@
+## Updated to work with dropwizard 4 only. 
+
 # dropwizard-json-exceptions
 Reusable ExceptionMappers for Dropwizard Apps that want more verbose JSON error outputs
 
@@ -16,9 +18,10 @@ For example, the kinds of responses you'll get from a REST endpoint in your serv
 
 | Dropwizard Version | Peer-Authenticator Version |
 |--------------------|----------------------------|
-|        0.8.*       |            1.x.y           |
-|        0.9.*       |            N/A             |
-|        1.0.*       |            2.x.y           |
+| 0.8.*              | 1.x.y                      |
+| 0.9.*              | N/A                        |
+| 1.0.*              | 2.x.y                      |
+| 4.0.*              | 4.x.y-dw4 _(this fork!)_   |
 
 ## Integration
 Add this JAR to your Dropwizard -server's POM
